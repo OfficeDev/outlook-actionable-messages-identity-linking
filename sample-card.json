@@ -1,0 +1,26 @@
+{
+	"hideOriginalBody": true,
+	"type": "AdaptiveCard",
+	"padding": "none",
+	"body": [
+        {
+            "type": "TextBlock",
+            "text": "Identity Linking Demo"
+        },
+		{
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.Http",
+                    "method": "POST",
+                    "url": "https://amidentitylinking.azurewebsites.net/action",
+                    "body": "{}",
+                    "title": "Get User Details",
+                    "isPrimary": true
+                }
+            ]
+        }
+	],
+	"$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+	"version": "1.0"
+}
