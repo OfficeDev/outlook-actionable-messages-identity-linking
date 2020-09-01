@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "base64url": "^1.0.6",
+    "base64url": "^3.0.0",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "jsonwebtoken": "7.x",
